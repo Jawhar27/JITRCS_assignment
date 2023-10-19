@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ), () {
           moveToScreen(
             context,
-            ScreenRoutes.toHomeScreen,
+            ScreenRoutes.toSignInScreen,
           );
         }));
   }
